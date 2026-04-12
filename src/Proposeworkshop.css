@@ -1,0 +1,64 @@
+.propose-container { padding-bottom: 3rem; }
+
+.propose-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.propose-form h2 {
+  font-size: 1.1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+select.form-control { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6560' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.5rem; }
+
+.tnc-group { margin-top: .5rem; }
+.tnc-check {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.tnc-check input[type=checkbox] {
+  width: 18px; height: 18px;
+  accent-color: var(--accent);
+  cursor: pointer; flex-shrink: 0;
+}
+.tnc-check label { font-size: .95rem; cursor: pointer; }
+.tnc-link {
+  background: none; border: none; color: var(--accent);
+  cursor: pointer; font-size: .95rem; font-family: 'DM Sans', sans-serif;
+  padding: 0; text-decoration: underline; font-weight: 600;
+}
+.tnc-link:hover { color: var(--accent-hover); }
+
+.propose-info { padding: 1.5rem; }
+.propose-info h3 { font-size: .85rem; text-transform: uppercase; letter-spacing: .07em; color: var(--text-muted); margin-bottom: .5rem; }
+.info-name { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 1rem; }
+.detail-dl { display: grid; grid-template-columns: auto 1fr; gap: .4rem .75rem; font-size: .88rem; }
+.detail-dl dt { font-weight: 600; color: var(--text-muted); }
+
+/* Success */
+.success-screen {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 520px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+.success-icon { font-size: 3.5rem; }
+.success-screen h1 { font-size: 1.75rem; }
+.success-screen p { color: var(--text-muted); line-height: 1.7; }
+
+@media (max-width: 640px) {
+  .propose-grid { grid-template-columns: 1fr; }
+}
