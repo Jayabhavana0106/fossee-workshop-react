@@ -1,3 +1,4 @@
+
 ## Design Principles
 - Mobile-first: base styles target 375px, enhanced for larger screens
 - Clear visual hierarchy: Fraunces serif for headings, DM Sans for body
@@ -17,3 +18,5 @@
 
 ## Hardest Part
 Replicating the Django template logic (user roles, conditional nav items, auth state) in React without a real backend required designing a clean AuthContext that mimics session behavior without localStorage.
+
+
