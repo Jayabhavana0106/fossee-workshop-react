@@ -25,15 +25,22 @@ Replicating the Django template logic (user roles, conditional nav items, auth s
 - Mobile-friendly layout redesign
 - Accessible form handling and focus states
 
-## SCREENSHOTS (After)
-   ## UI Improvements (After)
+## UI Improvements (After)
+
+Used React Context API to manage auth state and conditional rendering across components.
 
 ### Landing Page
 <img width="1359" height="679" alt="Screenshot 2026-04-18 123457" src="https://github.com/user-attachments/assets/3523add9-7b86-4757-afc8-82e457703623" />
 
+Improved layout, spacing, and typography to create clear visual hierarchy.
+
 ### Mobile Responsiveness
 <img width="404" height="546" alt="Screenshot 2026-04-18 124542" src="https://github.com/user-attachments/assets/f1175ad5-6be0-4bad-805c-52d89211316d" />
 <img width="404" height="546" alt="Screenshot 2026-04-18 124630" src="https://github.com/user-attachments/assets/27254d01-5810-4fbc-8fcc-960927517670" />
+
+Redesigned layout for 375px screens with better stacking and readability.
+
 <img width="1346" height="678" alt="image" src="https://github.com/user-attachments/assets/8ce62874-4386-4cb7-aeaf-1246909f0779" />
 <img width="1341" height="672" alt="Screenshot 2026-04-18 131854" src="https://github.com/user-attachments/assets/bb1b6e9d-41ff-4ba5-8240-29aed1a7c349" />
 
+Added sticky navigation and hamburger menu for better usability on smaller screens.
