@@ -19,4 +19,21 @@
 ## Hardest Part
 Replicating the Django template logic (user roles, conditional nav items, auth state) in React without a real backend required designing a clean AuthContext that mimics session behavior without localStorage.
 
+## Key Improvements
+- Simplified navigation flow
+- Improved readability with better typography
+- Mobile-friendly layout redesign
+- Accessible form handling and focus states
+
+## SCREENSHOTS (After)
+   ## UI Improvements (After)
+
+### Landing Page
+<img width="1359" height="679" alt="Screenshot 2026-04-18 123457" src="https://github.com/user-attachments/assets/3523add9-7b86-4757-afc8-82e457703623" />
+
+### Mobile Responsiveness
+<img width="404" height="546" alt="Screenshot 2026-04-18 124542" src="https://github.com/user-attachments/assets/f1175ad5-6be0-4bad-805c-52d89211316d" />
+<img width="404" height="546" alt="Screenshot 2026-04-18 124630" src="https://github.com/user-attachments/assets/27254d01-5810-4fbc-8fcc-960927517670" />
+<img width="1346" height="678" alt="image" src="https://github.com/user-attachments/assets/8ce62874-4386-4cb7-aeaf-1246909f0779" />
+<img width="1341" height="672" alt="Screenshot 2026-04-18 131854" src="https://github.com/user-attachments/assets/bb1b6e9d-41ff-4ba5-8240-29aed1a7c349" />
 
